@@ -1,4 +1,4 @@
-<img width="1011" height="860" alt="image" src="https://github.com/user-attachments/assets/f4979621-84a2-4463-b901-dac8c2504399" /># CuraFlow
+# CuraFlow
 
 **A caregiver health-management platform that turns a working backend into an interface a tired caregiver can actually use.**
 
