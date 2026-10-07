@@ -1,0 +1,13 @@
+{
+  "name": "curaflow-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static HTML/CSS/JS frontend for CuraFlow. No build step — these scripts just serve the files as-is.",
+  "scripts": {
+    "dev": "serve -l 3000 .",
+    "start": "serve -l 3000 ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.6"
+  }
+}

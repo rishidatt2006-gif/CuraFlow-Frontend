@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>CuraFlow — Caregiver Workspace</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+
+  <!-- Auth screen: shown when there is no valid session -->
+  <div id="auth-screen" class="auth-screen" hidden></div>
+
+  <!-- App shell: shown once logged in -->
+  <div id="app-shell" class="app-shell" hidden>
+    <aside class="sidebar" id="sidebar"></aside>
+    <div class="app-main">
+      <header class="topbar" id="topbar"></header>
+      <main class="content" id="view-root" aria-live="polite"></main>
+    </div>
+  </div>
+
+  <div id="toast-container" class="toast-container" aria-live="assertive"></div>
+  <div id="modal-root"></div>
+
+  <!-- Entry point. Every other JS file is a module imported from here. -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
